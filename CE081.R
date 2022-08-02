@@ -10,12 +10,12 @@ colnames(result) <- paste0("Q", (vq-1))
 rownames(result) <- paste0("Q", (vq-1))
 I <- array(0, dim=tamanho)
 J <- array(0, dim=tamanho)
-for (i in c(1:(length(vq)-1))){
-    for (j in c((i+1):length(vq))){
-        item <- table(dados[,c(vq[i],vq[j])])
-        I[[i,j]] <- length(item[1,])
-        J[[i,j]] <- length(item[,1])
-        result[[i,j]] <- (chisq.test(item))$statistic
+for (k in c(1:(length(vq)-1))){
+    for (l in c((i+1):length(vq))){
+        item <- table(dados[,c(vq[k],vq[l])])
+        I[[k,l]] <- length(item[1,])
+        J[[k,l]] <- length(item[,1])
+        result[[k,l]] <- (chisq.test(item))$statistic
     }
 }
 T <- round((sqrt((result/44)/((I-1)*(J-1))))*100, 2)
