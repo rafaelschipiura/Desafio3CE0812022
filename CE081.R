@@ -2,24 +2,23 @@
 
 library(readr)
 
-dados = read_delim("DADOS_CE081_2022.csv", quote = "\"", col_types = "nccnccccccc", locale = locale(encoding = "ISO-8859-1", decimal_mark = ","), delim = ";")
+dados <- read_delim("DADOS_CE081_2022.csv", quote = "\"", col_types = "nccnccccccc", locale = locale(encoding = "ISO-8859-1", decimal_mark = ","), delim = ";")
 vq <- c(2,3,5,6,7,8,9,10)
-tamanho = c(length(vq),length(vq))
-result = array(NA, dim=tamanho)
+tamanho <- c(length(vq),length(vq))
+result <- array(NA, dim=tamanho)
 colnames(result) <- paste0("Q", (vq-1))
 rownames(result) <- paste0("Q", (vq-1))
-I = array(0, dim=tamanho)
-J = array(0, dim=tamanho)
+I <- array(0, dim=tamanho)
+J <- array(0, dim=tamanho)
 for (i in c(1:(length(vq)-1))){
     for (j in c((i+1):length(vq))){
-        item=table(dados[,c(vq[i],vq[j])])
-        I[[i,j]]=length(item[1,])
-        J[[i,j]]=length(item[,1])
-        result[[i,j]] = (chisq.test(item))$statistic
-
+        item <- table(dados[,c(vq[i],vq[j])])
+        I[[i,j]] <- length(item[1,])
+        J[[i,j]] <- length(item[,1])
+        result[[i,j]] <- (chisq.test(item))$statistic
     }
 }
-T = round((sqrt((result/44)/((I-1)*(J-1))))*100, 2)
+T <- round((sqrt((result/44)/((I-1)*(J-1))))*100, 2)
 print(T[1:7,2:8], na.print="")
 #barplot(table(dados[,c(2,3)]))
 
