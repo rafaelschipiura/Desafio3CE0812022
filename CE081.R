@@ -11,7 +11,7 @@ rownames(result) <- paste0("Q", (vq-1))
 I <- array(0, dim=tamanho)
 J <- array(0, dim=tamanho)
 for (k in c(1:(length(vq)-1))){
-    for (l in c((i+1):length(vq))){
+    for (l in c((k+1):length(vq))){
         item <- table(dados[,c(vq[k],vq[l])])
         I[[k,l]] <- length(item[1,])
         J[[k,l]] <- length(item[,1])
