@@ -1,7 +1,8 @@
 #!/usr/bin/env Rscript
 
 library(readr)
-dicionario <- c("No momento, você exerce algum tipo de atividade remunerada?",
+dicionario <- c("ID",
+                "No momento, você exerce algum tipo de atividade remunerada?",
                 "Você já frequentou algum curso de nível superior antes de ser aprovado para o curso de Estatística?",
                 "Em média, quanto tempo - em minutos - você demora para chegar a Universidade?",
                 "Você estudou Estatística no Ensino Médio?",
@@ -12,8 +13,9 @@ dicionario <- c("No momento, você exerce algum tipo de atividade remunerada?",
                 "Como você avalia sua habilidade em Computação?",
                 "Qual a sua principal expectativa após a conclusão do curso?")
 
-names(dicionario) <- paste0("Q", 1:10)
+names(dicionario) <- c("ID", paste0("Q", 1:10))
 dados <- read_delim("DADOS_CE081_2022.csv", quote = "\"", col_types = "nccnccccccc", locale = locale(encoding = "ISO-8859-1", decimal_mark = ","), delim = ";")
+print(dicionario)
 vq <- c(2,3,5,6,7,8,9,10)
 tamanho <- c(length(vq),length(vq))
 result <- array(NA, dim=tamanho)
