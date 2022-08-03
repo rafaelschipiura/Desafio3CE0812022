@@ -38,7 +38,7 @@ max <- which(T >= bigt, arr.ind=TRUE)
 aplotar <- list(plots)
 
 for (m in 1:nrow(max)){
-    print(paste(paste0("Q",vq[max[m,1]]-1), paste0("Q", vq[max[m,2]]-1)))
+    print(paste0("Q",vq[max[m,1]]-1, " Q", vq[max[m,2]]-1))
     aplotar[[m]] <- table(dados[c(vq[max[m,1]],vq[max[m,2]])])
 }
 
