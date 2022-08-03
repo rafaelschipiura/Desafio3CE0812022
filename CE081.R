@@ -19,8 +19,13 @@ for (k in c(1:(length(vq)-1))){
     }
 }
 T <- round((sqrt((result/44)/((I-1)*(J-1))))*100, 2)
-print(T[1:7,2:8], na.print="")
-#barplot(table(dados[,c(2,3)]))
+#print(T[1:7,2:8], na.print="")
+big5 <- tail(sort(c(T)), n=5)[1]
+max <- which(T >= big5, arr.ind=TRUE)
+for (m in c(1:nrow(max))){
+    print(paste(paste0("Q",vq[max[m,1]]-1), paste0("Q", vq[max[m,2]]-1)))
+    barplot(table(dados[c(vq[max[m,1]],vq[max[m,2]])]))
+}
 
 #mean(dados$Q3)
 #median(dados$Q3)
