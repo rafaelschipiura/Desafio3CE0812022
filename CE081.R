@@ -15,7 +15,6 @@ dicionario <- c("ID",
 
 names(dicionario) <- c("ID", paste0("Q", 1:10))
 dados <- read_delim("DADOS_CE081_2022.csv", quote = "\"", col_types = "nccnccccccc", locale = locale(encoding = "ISO-8859-1", decimal_mark = ","), delim = ";")
-print(dicionario)
 vq <- c(2,3,5,6,7,8,9,10)
 tamanho <- c(length(vq),length(vq))
 result <- array(NA, dim=tamanho)
