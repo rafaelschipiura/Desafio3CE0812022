@@ -15,7 +15,12 @@ dicionario <- c("ID",
                 "Qual a sua principal expectativa após a conclusão do curso?")
 
 names(dicionario) <- c("ID", paste0("Q", 1:10))
-dados <- read_delim("DADOS_CE081_2022.csv", quote = "\"", col_types = "nccnccccccc", locale = locale(encoding = "ISO-8859-1", decimal_mark = ","), delim = ";")
+dados <- read_delim("DADOS_CE081_2022.csv",
+                    quote = "\"",
+                    col_types = "nccnccccccc",
+                    locale = locale(encoding = "ISO-8859-1",
+                                    decimal_mark = ","),
+                    delim = ";")
 vq <- c(2,3,5,6,7,8,9,10)
 tamanho <- c(length(vq),length(vq))
 result <- array(NA, dim=tamanho)
@@ -40,16 +45,20 @@ T[is.na(T)] <- ""
 plots <- nrow(max)
 for (m in 1:plots){
     aplotar[[m]] <- table(dados[c(vq[max[m,1]],vq[max[m,2]])])
+    aplotar[[m]] = prop.table(aplotar[[m]], margin=2)
 }
+
 arquivo <- 0
 resolucao <- 150
 
-png(filename=paste0("plot", sprintf("%02d", arquivo), ".png"), width=800, height=600, res=resolucao)
+png(filename=paste0("plot", sprintf("%02d", arquivo), ".png"),
+    width=800, height=600, res=resolucao)
 arquivo <- arquivo+1
 grid.table(T[1:7,2:8])
 
 for (p in 1:plots){
-    png(filename=paste0("Q",vq[max[p,1]]-1, "xQ", vq[max[p,2]]-1, ".png"), width=800, height=600, res=resolucao)
+    png(filename=paste0("Q",vq[max[p,1]]-1, "xQ", vq[max[p,2]]-1, ".png"),
+        width=800, height=600, res=resolucao)
     barplot(aplotar[[p]])
 }
 
