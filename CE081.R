@@ -1,6 +1,7 @@
 #!/usr/bin/env Rscript
 
 library(readr)
+library(gridExtra)
 dicionario <- c("ID",
                 "No momento, você exerce algum tipo de atividade remunerada?",
                 "Você já frequentou algum curso de nível superior antes de ser aprovado para o curso de Estatística?",
@@ -31,18 +32,24 @@ for (k in c(1:(length(vq)-1))){
     }
 }
 T <- round((sqrt((result/44)/((I-1)*(J-1))))*100, 2)
-#print(T[1:7,2:8], na.print="")
 plots <- 5
 bigt <- tail(sort(c(T)), n=plots)[1]
 max <- which(T >= bigt, arr.ind=TRUE)
 aplotar <- list(plots)
-
-for (m in 1:nrow(max)){
-    print(paste0("Q",vq[max[m,1]]-1, " Q", vq[max[m,2]]-1))
+T[is.na(T)] <- ""
+plots <- nrow(max)
+for (m in 1:plots){
     aplotar[[m]] <- table(dados[c(vq[max[m,1]],vq[max[m,2]])])
 }
+arquivo <- 0
+resolucao = 150
+
+png(filename=paste0("plot", sprintf("%02d", arquivo), ".png"), width=800, height=600, res=resolucao)
+arquivo <- arquivo+1
+grid.table(T[1:7,2:8])
 
 for (p in 1:plots){
+    png(filename=paste0("Q",vq[max[p,1]]-1, "xQ", vq[max[p,2]]-1, ".png"), width=800, height=600, res=resolucao)
     barplot(aplotar[[p]])
 }
 
