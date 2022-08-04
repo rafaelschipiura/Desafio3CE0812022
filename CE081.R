@@ -42,7 +42,7 @@ for (m in 1:plots){
     aplotar[[m]] <- table(dados[c(vq[max[m,1]],vq[max[m,2]])])
 }
 arquivo <- 0
-resolucao = 150
+resolucao <- 150
 
 png(filename=paste0("plot", sprintf("%02d", arquivo), ".png"), width=800, height=600, res=resolucao)
 arquivo <- arquivo+1
