@@ -61,20 +61,3 @@ for (p in 1:plots){
         width=800, height=600, res=resolucao)
     barplot(aplotar[[p]])
 }
-
-#mean(dados$Q3)
-#median(dados$Q3)
-#summary(dados$Q3)
-#quantile(dados$Q3)
-
-#stripchart(dados$Q3)
-
-#boxplot(dados$Q3)
-
-#range(dados$Q3)
-#IQR(dados$Q3)
-#var(dados$Q3)
-#sd(dados$Q3)
-#hist(dados$Q3)
-#plot(ecdf(dados$Q3))
-
