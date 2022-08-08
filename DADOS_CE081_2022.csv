@@ -1,45 +1,45 @@
 ID;Q1;Q2;Q3;Q4;Q5;Q6;Q7;Q8;Q9;Q10
-1;Trabalho;Não, nunca frequentei um curso de nível superior;45;Sim;Não;Quis ser Estatístico(a);... seria, definitivamente, minha primeira opção de curso;Ótima;Boa;Continuar estudos de pós-graduação
-2;Trabalho;Sim, mas não concluí;20;Não;Não;Pela minha afinidade com Matemática;... seria, definitivamente, minha primeira opção de curso;Ótima;Ótima;Continuar estudos de pós-graduação
-3;Trabalho;Sim e conclui o curso;20;Não;Não;Necessidade de uso de técnicas estatísticas no meu trabalho;... seria, definitivamente, minha primeira opção de curso;Boa;Ótima;Melhorar meus conhecimentos para meu emprego atual
-4;Não exerço atividades remuneradas;Não, nunca frequentei um curso de nível superior;40;Sim;Não;Pela minha afinidade com Matemática;... seria, definitivamente, minha primeira opção de curso;Ótima;Ruim;Conseguir meu primeiro emprego
-5;Trabalho;Não, nunca frequentei um curso de nível superior;5;Sim;Não;Pela minha afinidade com Matemática;... seria, definitivamente, minha primeira opção de curso;Boa;Ruim;Continuar estudos de pós-graduação
-6;Trabalho;Sim, mas não concluí;10;Sim;Sim;Influência familiar;... seria, definitivamente, minha primeira opção de curso;Boa;Boa;Conseguir um emprego bem remunerado
-7;Trabalho;Não, nunca frequentei um curso de nível superior;5;Sim;Sim;Influência familiar;... seria, definitivamente, minha primeira opção de curso;Boa;Ruim;Conseguir meu primeiro emprego
-8;Trabalho;Sim e conclui o curso;25;Não;Não;Já estudei estatística antes e gostei da matéria;... seria, definitivamente, minha primeira opção de curso;Boa;Péssima;Melhorar meus conhecimentos para meu emprego atual
-9;Trabalho;Sim e conclui o curso;20;Não;Não;Já estudei estatística antes e gostei da matéria;... seria, definitivamente, minha primeira opção de curso;Ótima;Boa;Melhorar meus conhecimentos para meu emprego atual
-10;Não exerço atividades remuneradas;Não, nunca frequentei um curso de nível superior;20;Não;Sim;Influência familiar;... seria, definitivamente, minha primeira opção de curso;Boa;Ótima;Conseguir meu primeiro emprego
-11;Trabalho;Sim, mas não concluí;30;Sim;Não;Pela minha afinidade com Matemática;... seria, definitivamente, minha primeira opção de curso;Ótima;Boa;Continuar estudos de pós-graduação
-12;Não exerço atividades remuneradas;Não, nunca frequentei um curso de nível superior;40;Sim;Sim;Influência familiar;... poderia ser minha segunda de curso;Boa;Ruim;Conseguir meu primeiro emprego
-13;Trabalho;Sim e conclui o curso;60;Sim;Não;Pela minha afinidade com Matemática;... poderia ser minha segunda de curso;Boa;Ótima;Melhorar meus conhecimentos para meu emprego atual
-14;Não exerço atividades remuneradas;Não, nunca frequentei um curso de nível superior;70;Sim;Não;Pela minha afinidade com Matemática;... poderia ser minha segunda de curso;Ótima;Péssima;Conseguir meu primeiro emprego
-15;Não exerço atividades remuneradas;Sim, mas não concluí;5;Sim;Não;Quis ser Estatístico(a);... seria, definitivamente, minha primeira opção de curso;Ótima;Boa;Continuar estudos de pós-graduação
-16;Trabalho;Sim, mas não concluí;5;Sim;Não;Por se uma area muito abrangente atualmente e para melhor minhas condições no trabalho, para agilizar e demostrar dados.;... seria, definitivamente, minha primeira opção de curso;Boa;Boa;Continuar estudos de pós-graduação
-17;Trabalho;Não, nunca frequentei um curso de nível superior;90;Não;Não;Quis ser Estatístico(a);... seria, definitivamente, minha primeira opção de curso;Boa;Ruim;Conseguir meu primeiro emprego
-18;Não exerço atividades remuneradas;Não, nunca frequentei um curso de nível superior;60;Não;Não;Pela minha afinidade com Matemática;... seria, definitivamente, minha primeira opção de curso;Boa;Ruim;Conseguir meu primeiro emprego
-19;Trabalho;Sim e conclui o curso;20;Sim;Não;Necessidade de uso de técnicas estatísticas no meu trabalho;... seria, definitivamente, minha primeira opção de curso;Ruim;Ruim;Continuar estudos de pós-graduação
-20;Trabalho;Sim, mas não concluí;60;Não;Não;Necessidade de uso de técnicas estatísticas no meu trabalho;... seria, definitivamente, minha primeira opção de curso;Boa;Ótima;Melhorar meus conhecimentos para meu emprego atual
-21;Trabalho;Não, nunca frequentei um curso de nível superior;90;Sim;Não;Influência familiar;... poderia ser minha segunda de curso;Boa;Ruim;Melhorar meus conhecimentos para meu emprego atual
-22;Estou no seguro desemprego, e vendo doces;Não, nunca frequentei um curso de nível superior;80;Não;Não;Pela nota de corte no vestibular;... poderia ser minha terceira opção de curso;Boa;Boa;Melhorar meus conhecimentos para meu emprego atual
-23;Não exerço atividades remuneradas;Não, nunca frequentei um curso de nível superior;5;Não;Sim;Influência familiar;... seria, definitivamente, minha primeira opção de curso;Boa;Boa;Conseguir meu primeiro emprego
-24;Não exerço atividades remuneradas;Não, nunca frequentei um curso de nível superior;40;Sim;Não;Quis ser Estatístico(a);... seria, definitivamente, minha primeira opção de curso;Boa;Ótima;Conseguir meu primeiro emprego
-25;Não exerço atividades remuneradas;Sim e conclui o curso;65;Sim;Não;Pela nota de corte no vestibular;... poderia ser minha terceira opção de curso;Boa;Ótima;Conseguir meu primeiro emprego
-26;Não exerço atividades remuneradas;Sim, mas não concluí;48;Sim;Não;Participei de um projeto onde realizei a analise dos dados e me apaixonei, resolvi então migrar para estatística. ;... seria, definitivamente, minha primeira opção de curso;Boa;Péssima;Conseguir meu primeiro emprego
-27;Trabalho;Sim e conclui o curso;60;Não;Não;Já estudei estatística antes e gostei da matéria;... seria, definitivamente, minha primeira opção de curso;Ótima;Boa;Melhorar meus conhecimentos para meu emprego atual
-28;Trabalho;Sim, mas não concluí;20;Sim;Não;Usar conhecimento estatístico para resolver problemas complexos;... seria, definitivamente, minha primeira opção de curso;Boa;Boa;Continuar estudos de pós-graduação
-29;Não exerço atividades remuneradas;Não, nunca frequentei um curso de nível superior;90;Sim;Não;Influência familiar;... seria, definitivamente, minha primeira opção de curso;Boa;Boa;Conseguir meu primeiro emprego
-30;Trabalho;Sim e conclui o curso;8;Não;Não;Já estudei estatística antes e gostei da matéria;... seria, definitivamente, minha primeira opção de curso;Boa;Boa;Melhorar meus conhecimentos para meu emprego atual
-31;Trabalho;Sim, mas não concluí;30;Não;Sim;Pela minha afinidade com Matemática;... poderia ser minha segunda de curso;Ruim;Boa;Melhorar meus conhecimentos para meu emprego atual
-32;Trabalho;Sim e conclui o curso;90;Não;Não;Necessidade de uso de técnicas estatísticas no meu trabalho;... seria, definitivamente, minha primeira opção de curso;Ruim;Ruim;Melhorar meus conhecimentos para meu emprego atual
-33;Trabalho;Sim e conclui o curso;30;Não;Não;Já estudei estatística antes e gostei da matéria;... seria, definitivamente, minha primeira opção de curso;Boa;Ótima;Melhorar meus conhecimentos para meu emprego atual
-34;Não exerço atividades remuneradas;Não, nunca frequentei um curso de nível superior;20;Não;Sim;Influência familiar;... seria, definitivamente, minha primeira opção de curso;Boa;Boa;Conseguir meu primeiro emprego
-35;Não exerço atividades remuneradas;Não, nunca frequentei um curso de nível superior;5;Não;Sim;Influência familiar;... seria, definitivamente, minha primeira opção de curso;Boa;Ótima;Conseguir meu primeiro emprego
-36;Não exerço atividades remuneradas;Sim, mas não concluí;180;Não;Não;Pela minha afinidade com Matemática;... poderia ser minha segunda de curso;Boa;Ruim;Conseguir meu primeiro emprego
-37;Bolsa pós em outra instituição ;Sim e conclui o curso;40;Sim;Não;Já estudei estatística antes e gostei da matéria;... seria, definitivamente, minha primeira opção de curso;Boa;Ruim;Melhorar meus conhecimentos para meu emprego atual
-38;Trabalho;Sim e conclui o curso;50;Não;Não;Orientação ou teste vocacional;... seria, definitivamente, minha primeira opção de curso;Boa;Boa;Continuar estudos de pós-graduação
-39;Não exerço atividades remuneradas;Não, nunca frequentei um curso de nível superior;15;Sim;Não;Pela minha afinidade com Matemática;... seria, definitivamente, minha primeira opção de curso;Ótima;Boa;Continuar estudos de pós-graduação
-40;Não exerço atividades remuneradas;Não, nunca frequentei um curso de nível superior;50;Não;Não;Pela minha afinidade com Matemática;... seria, definitivamente, minha primeira opção de curso;Boa;Ruim;Continuar estudos de pós-graduação
-41;Trabalho;Não, nunca frequentei um curso de nível superior;30;Sim;Não;Quis ser Estatístico(a);... seria, definitivamente, minha primeira opção de curso;Boa;Boa;Continuar estudos de pós-graduação
-42;Não exerço atividades remuneradas;Sim e conclui o curso;30;Não;Não;Necessidade de uso de técnicas estatísticas no meu trabalho;... seria, definitivamente, minha primeira opção de curso;Boa;Boa;Melhorar meus conhecimentos para meu emprego atual
-43;Remuneração  por evento;Sim e conclui o curso;40;Não;Não;Necessidade de uso de técnicas estatísticas no meu trabalho;... seria, definitivamente, minha primeira opção de curso;Ruim;Ruim;Melhorar meus conhecimentos para meu emprego atual
-44;Trabalho;Não, nunca frequentei um curso de nível superior;90;Não;Não;Quis ser Estatístico(a);... seria, definitivamente, minha primeira opção de curso;Boa;Boa;Melhorar meus conhecimentos para meu emprego atual
+6;Trabalho;Sim, mas não concluí;10;Sim;Sim;Influência familiar;... primeira opção de curso;Boa;Boa;Conseguir um emprego bem remunerado
+7;Trabalho;Nunca frequentei um curso de nível superior;5;Sim;Sim;Influência familiar;... primeira opção de curso;Boa;Ruim;Conseguir meu primeiro emprego
+10;Não trabalho;Nunca frequentei um curso de nível superior;20;Não;Sim;Influência familiar;... primeira opção de curso;Boa;Ótima;Conseguir meu primeiro emprego
+12;Não trabalho;Nunca frequentei um curso de nível superior;40;Sim;Sim;Influência familiar;... segunda de curso;Boa;Ruim;Conseguir meu primeiro emprego
+21;Trabalho;Nunca frequentei um curso de nível superior;90;Sim;Não;Influência familiar;... segunda de curso;Boa;Ruim;Melhorar meus conhecimentos para meu emprego atual
+23;Não trabalho;Nunca frequentei um curso de nível superior;5;Não;Sim;Influência familiar;... primeira opção de curso;Boa;Boa;Conseguir meu primeiro emprego
+29;Não trabalho;Nunca frequentei um curso de nível superior;90;Sim;Não;Influência familiar;... primeira opção de curso;Boa;Boa;Conseguir meu primeiro emprego
+34;Não trabalho;Nunca frequentei um curso de nível superior;20;Não;Sim;Influência familiar;... primeira opção de curso;Boa;Boa;Conseguir meu primeiro emprego
+35;Não trabalho;Nunca frequentei um curso de nível superior;5;Não;Sim;Influência familiar;... primeira opção de curso;Boa;Ótima;Conseguir meu primeiro emprego
+8;Trabalho;Sim e conclui o curso;25;Não;Não;Já estudei estatística antes e gostei da matéria;... primeira opção de curso;Boa;Péssima;Melhorar meus conhecimentos para meu emprego atual
+9;Trabalho;Sim e conclui o curso;20;Não;Não;Já estudei estatística antes e gostei da matéria;... primeira opção de curso;Ótima;Boa;Melhorar meus conhecimentos para meu emprego atual
+27;Trabalho;Sim e conclui o curso;60;Não;Não;Já estudei estatística antes e gostei da matéria;... primeira opção de curso;Ótima;Boa;Melhorar meus conhecimentos para meu emprego atual
+30;Trabalho;Sim e conclui o curso;8;Não;Não;Já estudei estatística antes e gostei da matéria;... primeira opção de curso;Boa;Boa;Melhorar meus conhecimentos para meu emprego atual
+33;Trabalho;Sim e conclui o curso;30;Não;Não;Já estudei estatística antes e gostei da matéria;... primeira opção de curso;Boa;Ótima;Melhorar meus conhecimentos para meu emprego atual
+37;Trabalho;Sim e conclui o curso;40;Sim;Não;Já estudei estatística antes e gostei da matéria;... primeira opção de curso;Boa;Ruim;Melhorar meus conhecimentos para meu emprego atual
+3;Trabalho;Sim e conclui o curso;20;Não;Não;Necessidade de uso de técnicas estatísticas no meu trabalho;... primeira opção de curso;Boa;Ótima;Melhorar meus conhecimentos para meu emprego atual
+19;Trabalho;Sim e conclui o curso;20;Sim;Não;Necessidade de uso de técnicas estatísticas no meu trabalho;... primeira opção de curso;Ruim;Ruim;Continuar estudos de pós-graduação
+20;Trabalho;Sim, mas não concluí;60;Não;Não;Necessidade de uso de técnicas estatísticas no meu trabalho;... primeira opção de curso;Boa;Ótima;Melhorar meus conhecimentos para meu emprego atual
+32;Trabalho;Sim e conclui o curso;90;Não;Não;Necessidade de uso de técnicas estatísticas no meu trabalho;... primeira opção de curso;Ruim;Ruim;Melhorar meus conhecimentos para meu emprego atual
+42;Não trabalho;Sim e conclui o curso;30;Não;Não;Necessidade de uso de técnicas estatísticas no meu trabalho;... primeira opção de curso;Boa;Boa;Melhorar meus conhecimentos para meu emprego atual
+43;Trabalho;Sim e conclui o curso;40;Não;Não;Necessidade de uso de técnicas estatísticas no meu trabalho;... primeira opção de curso;Ruim;Ruim;Melhorar meus conhecimentos para meu emprego atual
+16;Trabalho;Sim, mas não concluí;5;Sim;Não;Outros;... primeira opção de curso;Boa;Boa;Continuar estudos de pós-graduação
+26;Não trabalho;Sim, mas não concluí;48;Sim;Não;Outros;... primeira opção de curso;Boa;Péssima;Conseguir meu primeiro emprego
+28;Trabalho;Sim, mas não concluí;20;Sim;Não;Outros;... primeira opção de curso;Boa;Boa;Continuar estudos de pós-graduação
+38;Trabalho;Sim e conclui o curso;50;Não;Não;Outros;... primeira opção de curso;Boa;Boa;Continuar estudos de pós-graduação
+2;Trabalho;Sim, mas não concluí;20;Não;Não;Pela minha afinidade com Matemática;... primeira opção de curso;Ótima;Ótima;Continuar estudos de pós-graduação
+4;Não trabalho;Nunca frequentei um curso de nível superior;40;Sim;Não;Pela minha afinidade com Matemática;... primeira opção de curso;Ótima;Ruim;Conseguir meu primeiro emprego
+5;Trabalho;Nunca frequentei um curso de nível superior;5;Sim;Não;Pela minha afinidade com Matemática;... primeira opção de curso;Boa;Ruim;Continuar estudos de pós-graduação
+11;Trabalho;Sim, mas não concluí;30;Sim;Não;Pela minha afinidade com Matemática;... primeira opção de curso;Ótima;Boa;Continuar estudos de pós-graduação
+13;Trabalho;Sim e conclui o curso;60;Sim;Não;Pela minha afinidade com Matemática;... segunda de curso;Boa;Ótima;Melhorar meus conhecimentos para meu emprego atual
+14;Não trabalho;Nunca frequentei um curso de nível superior;70;Sim;Não;Pela minha afinidade com Matemática;... segunda de curso;Ótima;Péssima;Conseguir meu primeiro emprego
+18;Não trabalho;Nunca frequentei um curso de nível superior;60;Não;Não;Pela minha afinidade com Matemática;... primeira opção de curso;Boa;Ruim;Conseguir meu primeiro emprego
+31;Trabalho;Sim, mas não concluí;30;Não;Sim;Pela minha afinidade com Matemática;... segunda de curso;Ruim;Boa;Melhorar meus conhecimentos para meu emprego atual
+36;Não trabalho;Sim, mas não concluí;180;Não;Não;Pela minha afinidade com Matemática;... segunda de curso;Boa;Ruim;Conseguir meu primeiro emprego
+39;Não trabalho;Nunca frequentei um curso de nível superior;15;Sim;Não;Pela minha afinidade com Matemática;... primeira opção de curso;Ótima;Boa;Continuar estudos de pós-graduação
+40;Não trabalho;Nunca frequentei um curso de nível superior;50;Não;Não;Pela minha afinidade com Matemática;... primeira opção de curso;Boa;Ruim;Continuar estudos de pós-graduação
+22;Trabalho;Nunca frequentei um curso de nível superior;80;Não;Não;Pela nota de corte no vestibular;... terceira opção de curso;Boa;Boa;Melhorar meus conhecimentos para meu emprego atual
+25;Não trabalho;Sim e conclui o curso;65;Sim;Não;Pela nota de corte no vestibular;... terceira opção de curso;Boa;Ótima;Conseguir meu primeiro emprego
+1;Trabalho;Nunca frequentei um curso de nível superior;45;Sim;Não;Quis ser Estatístico(a);... primeira opção de curso;Ótima;Boa;Continuar estudos de pós-graduação
+15;Não trabalho;Sim, mas não concluí;5;Sim;Não;Quis ser Estatístico(a);... primeira opção de curso;Ótima;Boa;Continuar estudos de pós-graduação
+17;Trabalho;Nunca frequentei um curso de nível superior;90;Não;Não;Quis ser Estatístico(a);... primeira opção de curso;Boa;Ruim;Conseguir meu primeiro emprego
+24;Não trabalho;Nunca frequentei um curso de nível superior;40;Sim;Não;Quis ser Estatístico(a);... primeira opção de curso;Boa;Ótima;Conseguir meu primeiro emprego
+41;Trabalho;Nunca frequentei um curso de nível superior;30;Sim;Não;Quis ser Estatístico(a);... primeira opção de curso;Boa;Boa;Continuar estudos de pós-graduação
+44;Trabalho;Nunca frequentei um curso de nível superior;90;Não;Não;Quis ser Estatístico(a);... primeira opção de curso;Boa;Boa;Melhorar meus conhecimentos para meu emprego atual
