@@ -46,7 +46,7 @@ T[is.na(T)] <- ""
 plots <- nrow(max)
 for (m in 1:plots){
     aplotar[[m]] <- table(dados[c(vq[max[m,1]],vq[max[m,2]])])
-    aplotar[[m]] = prop.table(aplotar[[m]], margin=2)
+    aplotar[[m]] <- prop.table(aplotar[[m]], margin=2)
 }
 
 arquivo <- 0
