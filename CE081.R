@@ -21,11 +21,12 @@ dados <- read_delim("DADOS_CE081_2022.csv",
                     locale = locale(encoding = "ISO-8859-1",
                                     decimal_mark = ","),
                     delim = ";")
-vq <- c(2,3,5,6,7,8,9,10)
+dados$Q3k <- cut(dados$Q3, breaks=6, labels=FALSE)
+vq <- c(2,3,5,6,7,8,9,10,11,12)
 tamanho <- c(length(vq),length(vq))
 result <- array(NA, dim=tamanho)
-colnames(result) <- paste0("Q", (vq-1))
-rownames(result) <- paste0("Q", (vq-1))
+colnames(result) <- c(paste0("Q", head((vq), n=-1)-1), "Q3")
+rownames(result) <- c(paste0("Q", head((vq), n=-1)-1), "Q3")
 I <- array(0, dim=tamanho)
 J <- array(0, dim=tamanho)
 for (k in c(1:(length(vq)-1))){
@@ -52,9 +53,9 @@ arquivo <- 0
 resolucao <- 150
 
 png(filename=paste0("plot", sprintf("%02d", arquivo), ".png"),
-    width=800, height=600, res=resolucao)
+    width=900, height=600, res=resolucao)
 arquivo <- arquivo+1
-grid.table(T[1:7,2:8])
+grid.table(T[1:9,2:10])
 
 for (p in 1:plots){
     png(filename=paste0("Q",vq[max[p,1]]-1, "xQ", vq[max[p,2]]-1, ".png"),
